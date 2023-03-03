@@ -20,6 +20,7 @@ body{
 #imdbLogo{
     width: 7%;
     height: 0%;
+    margin-top: 0;
     margin-left: -12%;
     margin-right: -13%;
     cursor: pointer;
@@ -68,112 +69,98 @@ body{
     cursor: pointer;
     filter: brightness(0) invert(1);
 }   
+
 .movie{
-    display: flex;
     border: 5px solid #f3ce13;
-    border-radius: 50px;
     margin-top: 10%;
-    justify-content: space-evenly;
     background: black;
+    padding-bottom: 20px;
+
 }
 .movie h1{
-    margin-left: 31%;
+    text-align: center;
     font-size: 50px;
     color: white;
 }
-#onceUponATime{
-    width: 20%;
-    height: 10%;
-    margin-top: 10%;
-    margin-left: -63%;
-    margin-bottom: 3%;
+.movieImage{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.movieImage img{
+    width: 400px;
+    margin-bottom: 10px;
     border: 2px solid #f3ce13;
 }
-#yehJawani{
-    width: 20%;
-    height: 10%;
-    margin-top: 10%;
-    margin-left: 2%;
-    border: 2px solid #f3ce13;
-}
-#fastAndFurious{
-    width: 20%;
-    height: 10%;
-    margin-top: 10%;
-    margin-right: -4%;
-    border: 2px solid #f3ce13;
-}
+
 
 .container1{
-    display: flex;
-    border: 5px solid black;
+    border: 5px solid #f3ce13;
     border-radius: 50px;
     margin-top: 10%;
-    margin-left: 20%;
-    justify-content: space-evenly;
     background: black;
+    padding-bottom: 20px;
+    margin-left: 10%;
 }
 .container1 h1{
-    display: flex;
-    margin-left: 16%;
+    text-align: center;
     font-size: 50px;
     color: white;
 }
-#border1{
-    border: 5px solid #f3ce13;
-    width: 40%;
-    height: 100%;
-    margin-left: -83%;
-    margin-right: 0;
-    margin-top: 16%;
+.border1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.container1 p{
-    margin-left: 3%;
-    font-size: 20px;
+.border1 p{
     color: white;
+    border: 2px solid #f3ce13;
+    width: 400px;
+    height: auto;
+    text-align: center;
 }
-#pulpFiction{
-    width: 20%;
-    height: 10%;
-    margin-top: 16%;
-    margin-bottom: 5%;
-    margin-right: -10%;
+.border1 img{
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 2px solid #f3ce13;
 }
 
+
+
+
 .container2{
-    display: flex;
-    border: 5px solid black;
+    border: 5px solid #f3ce13;
     border-radius: 50px;
     margin-top: 10%;
-    margin-right: 20%;
-    justify-content: space-evenly;
-    background: white;
+    background: black;
+    padding-bottom: 20px;
+    margin-right: 10%;
 }
 .container2 h1{
-    display: flex;
-    margin-left: 18%;
+    text-align: center;
     font-size: 50px;
-    color: black;
+    color: white;
 }
-#border2{
-    border: 5px solid #f3ce13;
-    width: 40%;
-    height: 100%;
-    margin-left: -77%;
-    margin-right: 0;
-    margin-top: 16%;
+.border2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.container2 p{
-    margin-left: 3%;
-    font-size: 20px;
-    color: black;
+.border2 p{
+    color: white;
+    border: 2px solid #f3ce13;
+    width: 400px;
+    height: auto;
+    text-align: center;
 }
-#theLastOfUs{
-    width: 20%;
-    height: 10%;
-    margin-top: 16%;
-    margin-bottom: 5%;
-    margin-right: -10%;
+.border2 img{
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 2px solid #f3ce13;
 }
